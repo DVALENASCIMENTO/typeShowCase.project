@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #FFFFFF; /* Cor de fundo branca */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2E2E2E; /* Cinza escuro */
+    margin-bottom: 0.5em;
+}
+
+
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #91C8E7; /* Azul Claro */
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.intro-section .logo {
+    width: 20px; /* Tamanho reduzido */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.intro-section .text-container {
+    text-align: center;
+}
+
+.intro-section .text-container h1 {
+    font-size: 2.8em;
+    color: #2E2E2E; /* Cinza escuro */
+    margin: 10px 0;
+}
+
+.intro-section .text-container p {
+    font-size: 1.2em;
+    color: #F8AFA6; /* Rosa Claro */
+    margin-top: 0;
+    font-weight: 300;
+}
+
+#buttons-container {
+    margin: 30px 0;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #91C8E7; /* Azul Claro */
+    color: #FFFFFF; /* Branco */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2E2E2E; /* Cinza escuro */
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #D9D9D9; /* Cinza Claro */
+    padding: 30px 0;
+    text-align: center;
+    border-top: 5px solid #91C8E7; /* Azul Claro */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    color: #2E2E2E; /* Cinza escuro */
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer-content a {
+    color: #91C8E7; /* Azul Claro */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
